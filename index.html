@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="15">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <style>
+        body {
+            font-style: italic;
+            background-color: black;
+            color: rgb(137, 160, 34);
+            font-size: 20px;
+            text-align: center;
+            
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            padding: 20px;
+
+        }
+        h2 {
+            font-size: 16;
+        }
+    </style>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+        <h2>Preencha todos os campos</h2>
+    <fieldset>
+        <legend>Acesso Restrito</legend>
+        <form name="form">
+            Nome: <input type="text" name="nome" autocomplete="off"><br><br>
+            Senha: <input type="password" name="senha" autocomplete="off"><br><br>
+            <input type="button" name="botao" value="LOGIN" onclick="acesso(this.form)">
+            <input type="reset" name="limpar" value="LIMPAR">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
