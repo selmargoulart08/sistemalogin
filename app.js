@@ -1,6 +1,6 @@
 function acesso(form) {
 
-/*checa nome  senha, caso digite com letras maiusculas, será convertido para letras minusculas
+/*verifica nome e senha, caso digite com letras maiusculas, será convertido para letras minusculas
 */
     form.nome.value = form.nome.value.toLowerCase()
     form.senha.value = form.senha.value.toLowerCase()
