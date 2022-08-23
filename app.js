@@ -8,7 +8,7 @@ function acesso(form) {
     if (form.nome.value == "admin" && form.senha.value == "123" ||
      form.nome.value == "rychard" && form.senha.value == "345" ||
      form.nome.value == "junior" && form.senha.value == "321" ||
-     form.nome.value == "nyce" && form.senha.value == "543" ) {
+     form.nome.value == "thay" && form.senha.value == "123" ) {
          location = "logado.html"
      }
     else {
